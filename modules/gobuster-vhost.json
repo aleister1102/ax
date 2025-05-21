@@ -1,0 +1,8 @@
+[
+	{
+    		"command": "/usr/bin/gobuster vhost -u _target_ -w _wordlist_ -o output/_cleantarget_ -q",
+    		"wordlist": "/home/op/lists/seclists/Discovery/DNS/shubs-subdomains.txt",
+		"ext": "txt",
+    		"threads": "1" 
+	}
+]

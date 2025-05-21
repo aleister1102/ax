@@ -1,6 +1,7 @@
 [
   {
-    "command": "/usr/bin/gobuster dir -q -w input -o output -u ",
+    "command": "/usr/bin/gobuster dir -q -w _wordlist_ -o output/_cleantarget_ -u _target_",
+    "wordlist": "/home/op/lists/seclists/Discovery/Web-Content/big.txt",
     "ext": "txt"
   }
 ]

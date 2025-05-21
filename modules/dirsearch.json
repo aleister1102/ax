@@ -1,0 +1,6 @@
+[{
+	"command": "dirsearch -l input  -w _wordlist_ -o output",
+	"wordlist": "/home/op/lists/seclists/Discovery/Web-Content/big.txt",
+	"ext": "txt"
+
+}]

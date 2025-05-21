@@ -1,6 +1,6 @@
 [
   {
-    "command": "cat input | /home/op/go/bin/subjs | tee output",
+    "command": "cat input | subjs | tee output",
     "ext": "txt"
   }
 ]
