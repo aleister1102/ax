@@ -1,0 +1,7 @@
+[
+	{
+		"command": "docker run --rm -i ghcr.io/digininja/cewl _target_ | tee output/_cleantarget_",
+		"threads": "8",
+		"ext": "txt"
+	}
+]

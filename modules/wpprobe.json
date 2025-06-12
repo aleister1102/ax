@@ -1,0 +1,6 @@
+[
+	{
+		"command": "wpprobe update ; wpprobe update-db ; wpprobe scan -f input -t 20 -o out.json; mv out.json output",
+		"ext": "txt"
+	}
+]

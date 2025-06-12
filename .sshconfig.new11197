@@ -1,0 +1,7 @@
+ServerAliveInterval 60
+IdentityFile /root/.ssh/axiom_rsa
+Host ubuntu-s-1vcpu-2gb-sgp1-01
+	HostName 165.22.58.96
+	User op
+	Port 2266
+

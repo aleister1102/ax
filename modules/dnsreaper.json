@@ -1,0 +1,6 @@
+[
+	{
+		"command":"docker run -it --rm --mount type=bind,source=\"$(pwd)\",target=/data punksecurity/dnsreaper file --filename /data/input --out /data/output -v",
+		"ext":"txt"
+	}
+]

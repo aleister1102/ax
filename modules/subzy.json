@@ -1,0 +1,6 @@
+[
+	{
+		"command": "subzy run --targets input | tee output",
+		"ext": "txt"
+	}
+]

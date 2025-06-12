@@ -1,7 +1,7 @@
 [
   {
-    "command": "/usr/local/bin/wpscan --url _target_ -f cli-no-colour -o output/_cleantarget_ ",
+    "command": "docker run -it --rm --mount type=bind,source=\"$(pwd)\",target=/data wpscanteam/wpscan --url _target_ -f cli-no-colour -o /data/output/_cleantarget_ ",
     "ext": "dir",
-    "threads": "1"
+    "threads": "4"
   }
 ]
