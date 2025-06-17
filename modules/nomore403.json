@@ -1,5 +1,5 @@
 [{
-	"command": "/home/op/go/bin/nomore403 --folder /home/op/lists/403/ --uri _target_ | tee output/_cleantarget_",
+	"command": "/home/op/go/bin/nomore403 --folder /home/op/lists/nomore403-payloads/payloads/ --uri _target_ | tee output/_cleantarget_",
 	"ext": "txt",
 	"threads": 4
 }]

@@ -1,0 +1,6 @@
+[
+	{
+		"command":"cat input | zdns MULTIPLE --multi-config-file=/home/op/recon/zdns/src/cli/multiple.ini | tee output",
+		"ext":"txt"
+	}
+]
