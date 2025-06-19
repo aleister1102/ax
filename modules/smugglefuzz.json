@@ -1,0 +1,5 @@
+[{
+	"command":"/home/op/go/bin/smugglefuzz scan -f input -d -c -t 20 | tee output",
+	"ext":"txt"
+
+}]
